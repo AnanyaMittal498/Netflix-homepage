@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-image: url(IN-en-20240729-POP_SIGNUP_TWO_WEEKS-perspective_WEB_a67d8c9e-8121-4a74-98e4-8005eb2df227_large.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 90vh;
+   position: relative;
+}
+body{
+    background-color: black;
+}
+.main .box{
+    height: 90vh;
+    width: 100%;
+    opacity: 0.54;
+    position: absolute;
+    top: 0px;
+    background-color: black;
+}
+nav{
+    max-width: 60vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+}
+nav img{
+    color: red;
+    position: relative;
+    z-index: 10;
+}
+button{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    height: calc(100% - 62px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: martel sans;
+    position: relative;
+    z-index: 10;
+    gap: 10px;
+    padding: 0 23px;
+    text-align: center;
+}
+.hero> :nth-child(1){
+    font-weight: 900;
+    font-size: 48px;
+}
+.hero> :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+}
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+}
+.separation{
+    width: 100%;
+    height: 8px;
+    background-color: rgb(43, 43, 43);
+}
+.red{
+    background-color: red;
+    color: white;
+    font-family: martel sans; 
+    font-weight: 800;
+   
+   padding: 3px 20px;
+  
+  border-radius: 7px;
+}
+.red2{
+    width: auto;
+    font-size: 1.5rem;
+    font-weight: 500;
+    min-height: 3.5rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.25rem;
+    background: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+   
+}
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.btn1{
+    display: flex;
+    gap: 20px;
+}
+.black  {
+    background-color: rgb(24, 23, 23);
+    opacity: 0.6;
+    padding: 17.27px 170px 17.27px 16px;
+    font-size: 15px;
+    border-radius: 0.25rem;
+    border: 1px solid rgba(233, 230, 230, 0.541);
+    color: white;
+   font-weight: 525;
+}
+.black::placeholder{
+    color: rgb(255, 255, 255);
+    
+}
+
+.red:hover{
+    background-color: rgb(191, 12, 12);
+}
+.red2:hover{
+    background-color: rgb(191, 12, 12);
+}
+select{
+    background-color: rgb(24, 23, 23);
+    opacity: 0.6;
+    border-radius: 0.25rem;
+    border: 1px solid rgba(255, 255, 255, 0.559);
+    color: white;
+   padding: 6.5px 25px 6.5px 25px;
+   position: relative;
+   z-index: 10;
+   font-weight: 600;
+  
+}
+option{
+    background-color: white;
+    color: black;
+}
+
+.first{
+    text-align: center;
+    display: flex;
+    color: white;
+    max-width: 70vw;
+    margin: auto;
+   justify-content: center;
+   align-items: flex-end;
+   height: 20vw;
+}
+.secimg img{
+    width: 40vw;
+    position: absolute;
+    z-index: 10;
+    margin-top: 20px;
+}
+.secimg video{
+    width: 30vw;
+    position: relative;
+    top: 88px;
+    right: -68px;
+
+}
+.first > div{
+    display: flex;
+    flex-direction: column;
+}
+.first > div:first-child{
+font-size: 48px;
+font-weight: 900;
+font-family:martel sans ;
+}
+.first > div :nth-child(2){
+    font-size: 24px;
+    font-weight: 400;
+    font-family:martel sans ;
+    }
+.separation1{
+    width: 100%;
+    height: 8px;
+    background-color: rgb(43, 43, 43);
+    position: relative;
+    top: 250px;
+}   
+section{
+    height:20vw ;
+}
+.first1{
+    position: relative;
+    top: 209px;
+}
